@@ -1,6 +1,5 @@
-{
-	'mango': {
-		'description':''
-	}
-	
-}
+{"fruits":[
+    {"name":"Mango", "description":"Is a juicy stone fruit belonging to the genus Mangifera"},
+    {"name":"Banana", "description":"Long thick-skinned edible fruit that is yellow when ripe."},
+    {"name":"Orange", "description":"Orange is a type of citrus fruit which people often eat."}
+]}
