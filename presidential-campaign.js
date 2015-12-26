@@ -13,6 +13,7 @@ say('Hello, this is a presidential poll from the Georgia Statistics Center.');
 var key = gather(say('If you would like to be remove from our list, press 7'), {timeout: 2, numDigits: 1});
 
 if (key == 7) {
+  // This address does not exist, it its only for ilustration
   http.post('https://georgia.gov/removeFromList')
     .timeout(5000)
     .basicAuth("username", "password")
