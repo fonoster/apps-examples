@@ -1,3 +1,4 @@
+// An example of using Fonoster to create a poll
 var candidates = {
   "1": {name:"Donald Trump"},
   "2": {name:"Hillary Clinton"},
