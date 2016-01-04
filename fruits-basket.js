@@ -19,7 +19,7 @@ voice('sofia');
 var fruits;
 
 // Get fruits from json resource
-http.get('https://raw.githubusercontent.com/psanders/fonoster-examples/master/fruits.json')
+http.get('https://raw.githubusercontent.com/fonoster/apps-examples/master/fruits.json')
   .then(function(result) {
 	fruits = JSON.parse(result.body);
   });
