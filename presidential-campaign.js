@@ -49,4 +49,4 @@ while(true) {
     break;
 }
 
-say('Thanks for participating in this poll. To review the results, go to www.georgia.gov. Good bye');
+say('Thanks for participating in this poll. To review the results, go to www.georgia.gov. Goodbye!');
