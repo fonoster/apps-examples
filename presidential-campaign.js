@@ -1,3 +1,5 @@
+loadJS("fn:http.js");
+
 // An example of using Fonoster to create a poll
 var candidates = {
   "1": {name:"Donald Trump"},
@@ -15,7 +17,7 @@ var key = gather(say('If you would like to be remove from our list, press 7'), {
 
 if (key == 7) {
   // This address does not exist, it its only for ilustration
-  http.post('https://georgia.gov/removeFromList')
+  $http.post('https://georgia.gov/removeFromList')
     .timeout(5000)
     .basicAuth("username", "password")
     .then(function(result) {
