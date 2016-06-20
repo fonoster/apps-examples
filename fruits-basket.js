@@ -1,33 +1,15 @@
-/**
- * Voices avaiable:
- *
- * Dieter (DE)
- * Girgit (DE)
- * Allison (EN Default)
- * Lisa (EN)
- * Enrique (ES)
- * Laura (ES)
- * Sofia (ES)
- * Renee (FR)
- * Kate (GB)
- * Francesca (IT)
- *
- * Default is: Allison
- */
-voice('sofia');
+loadJS("fn:http.js");
 
 var fruits;
 
 // Get fruits from json resource
-http.get('https://raw.githubusercontent.com/fonoster/apps-examples/master/fruits.json')
-  .then(function(result) {
+$http.get('https://raw.githubusercontent.com/fonoster/apps-examples/master/fruits.json')
+.then(function(result) {
 	fruits = JSON.parse(result.body);
-  });
-
-say('Su canasta tiene');
-
-fruits.forEach(function(fruit) {
-	say(fruit.name);
 });
 
-say('En hora buena!');
+say('Su canasta tiene', {voice: 'sofia'});
+
+fruits.forEach(function(fruit) {
+	say(fruit.name, {voice: 'sofia'});
+});
