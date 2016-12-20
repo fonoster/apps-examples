@@ -3,7 +3,7 @@
 ACCOUNT_ID="5678c1a440307c529ceb66c5"
 API_KEY="61b17c2f33834c429ac53a2f8a1ff333"
 APP_ID="5678f0ee40307c6728f60c4b"
-BASE_URL="http://fonoster.com/v1"
+BASE_URL="http://api.fonoster.com/v1"
 APPS_URL="$BASE_URL/accounts/$ACCOUNT_ID/apps"
 CALLS_URL="$BASE_URL/accounts/$ACCOUNT_ID/calls"
 FROM_NUMBER='+18296072077'
