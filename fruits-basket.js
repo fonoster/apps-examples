@@ -3,7 +3,7 @@ loadJS("fn:http.js");
 var fruits;
 
 // Get fruits from json resource
-$http.get('https://raw.githubusercontent.com/psanders/fnjsexamples/master/fruits-basket.js')
+$http.get('https://raw.githubusercontent.com/psanders/fnjsexamples/master/fruits.json')
 .then(function(result) {
 	fruits = JSON.parse(result.body);
 });
