@@ -5,4 +5,4 @@ This repository contains several examples using FonosterJS. For more information
 - [Say "hello" to the monkeys](https://github.com/fonoster/fonoster-js-examples/blob/master/hello-monkeys.js)
 - [Choose a fruit in the basket](https://github.com/fonoster/fonoster-js-examples/blob/master/fruits-basket.js)
 - [Select your president](https://github.com/fonoster/fonoster-js-examples/blob/master/presidential-campaign.js)
-- [Speech-to-text example / Beta](https://github.com/fonoster/fonoster-js-examples/blob/master/frecognize.js)
+- [Speech-to-text example / Beta](https://github.com/fonoster/fonoster-js-examples/blob/master/recognize.js)
